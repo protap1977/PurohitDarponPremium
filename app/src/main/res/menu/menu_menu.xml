@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/search"
+        app:showAsAction="always"
+        android:icon="@drawable/search"
+        android:id="@+id/searchId"
+        tools:ignore="AlwaysShowAction"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item android:title="@string/share"
+        app:showAsAction="always"
+        android:icon="@drawable/share"
+        android:id="@+id/shareId"
+        tools:ignore="AlwaysShowAction" />
+
+    <item android:title="@string/contact_me"
+        android:icon="@drawable/message"
+        android:id="@+id/contactMeId"/>
+
+    <item android:title="@string/rate_me"
+        android:icon="@drawable/rate_me"
+        android:id="@+id/ratemeId"/>
+
+    <item android:title="@string/privaycy_policy"
+        android:icon="@drawable/privacy_tip"
+        android:id="@+id/privecyId"/>
+
+    <item android:title="@string/log_out"
+        android:icon="@drawable/logout"
+        android:id="@+id/logoutId"/>
+</menu>

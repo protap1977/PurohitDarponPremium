@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "243505047362",
+    "project_id": "purohitdarponpremium-b5021",
+    "storage_bucket": "purohitdarponpremium-b5021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243505047362:android:f2a95e3258c6fc47d38adb",
+        "android_client_info": {
+          "package_name": "adhikariit.blogspot.purohitdarponpremium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243505047362-9dpf7ikl9b4diop9mlu1c9oglidqdmtg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMWX0S8P3QBkMn9mNEWrpZEas8iBUfFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243505047362-9dpf7ikl9b4diop9mlu1c9oglidqdmtg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

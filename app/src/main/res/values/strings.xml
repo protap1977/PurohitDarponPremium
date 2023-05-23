@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PurohitDarponPremium</string>
+    <string name="advanced_login">Login With Mail &amp; Password </string>
+    <string name="signup">Signup</string>
+    <string name="or">Or</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_login">Back to login page!!</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="email_address">Email address</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="birthday">Birthday</string>
+    <string name="search">Search</string>
+    <string name="share">Share</string>
+    <string name="contact_me">Contact Me</string>
+    <string name="rate_me">Rate Me</string>
+    <string name="privaycy_policy">Privacy Policy</string>
+    <string name="log_out">Logout</string>
+    <string name="MTitle">আপনি কি এ্যাপ থেকে বেড় হবেন?</string>
+</resources>
