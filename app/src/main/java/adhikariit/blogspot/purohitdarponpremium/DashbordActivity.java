@@ -162,11 +162,13 @@ public class DashbordActivity extends AppCompatActivity {
                 intent.putExtra(Intent.EXTRA_SUBJECT, subject);
                 intent.putExtra(Intent.EXTRA_TEXT, body);
                 startActivity(Intent.createChooser(intent, "share with"));
+                finish();
                 break;
 
             case R.id.contactMeId:
                 Toast.makeText(this, "Contact me", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(DashbordActivity.this, ContactMe.class));
+                finish();
                 break;
 
             case R.id.ratemeId: {
@@ -177,6 +179,7 @@ public class DashbordActivity extends AppCompatActivity {
                 } catch (ActivityNotFoundException e) {
                     startActivity(new Intent(Intent.ACTION_VIEW,
                             Uri.parse("https://play.google.com/store/apps/details?id" + getOpPackageName())));
+                    finish();
                 }
             }
 
@@ -185,7 +188,9 @@ public class DashbordActivity extends AppCompatActivity {
             case R.id.privecyId:
                 Toast.makeText(this, "Privacy Policy", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(DashbordActivity.this, PrivacyPolicy.class));
+                finish();
                 break;
+
 
             case R.id.logoutId:
                 Toast.makeText(this, "Log Out", Toast.LENGTH_SHORT).show();
